@@ -1,16 +1,16 @@
 # NOTE: master branch is preserved for legacy use. All new development, and any code published to npm, should be done under the `public` branch.
 
-# medseek-config
-A common configuration module for use within the MEDSEEK API and UI node projects.
+# SymphonyCare-config
+A common configuration module for use within the SymphonyCare API and UI node projects.
 
 # about
-medseek-config is a lightweight wrapper on top of the [https://github.com/flatiron/nconf](nconf) module, which abstracts access to various configuration stores. Configuration data may come from files, machine environment variables, or the node command line. 
+SymphonyCare-config is a lightweight wrapper on top of the [https://github.com/flatiron/nconf](nconf) module, which abstracts access to various configuration stores. Configuration data may come from files, machine environment variables, or the node command line. 
 
 # usage
 * require the module
 
 ````
-var config = require('medseek-config');
+var config = require('SymphonyCare-config');
 ````
 
 * get a config value
@@ -23,7 +23,7 @@ var bar = config.get('foo.bar');
 ````
 
 # config stores
-medseek-config supports 3 types of configuration storage:
+SymphonyCare-config supports 3 types of configuration storage:
 * files - JSON or JS files, located in the root config directory
 * ENV variables - machine environment variables
 * CMD params - command line parameters, passed to node

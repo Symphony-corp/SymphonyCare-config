@@ -1,7 +1,7 @@
 {
-  "name": "medseek-config",
+  "name": "SymphonyCare-config",
   "version": "0.0.1",
-  "description": "MEDSEEK common config module",
+  "description": "Symphony Care common config module",
   "main": "./lib/index.js",
   "private": true,
   "directories": {
@@ -10,7 +10,7 @@
   "scripts": {
     "test": ""
   },
-  "author": "MEDSEEK, Inc.",
+  "author": "SymphonyCare, Inc.",
   "license": "BSD-2-Clause",
   "dependencies": {
     "nconf": "~0.6.8",

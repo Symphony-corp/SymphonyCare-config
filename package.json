@@ -1,12 +1,12 @@
 {
   "name": "ih-config",
   "version": "1.0.3",
-  "description": "Influence Health common config module",
+  "description": "Symphony Care common config module",
   "main": "./lib/index.js",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/medseek-engineering/medseek-config.git"
+    "url": "https://github.com/Symphony-corp/SymphonyCare-config.git"
   },
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
   "scripts": {
     "test": ""
   },
-  "author": "Influence Health, Inc.",
+  "author": "Symphony Care, Inc.",
   "contributors": [
     {
       "name": "Nathan Cooke",

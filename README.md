@@ -1,14 +1,14 @@
-# ih-config
+# Symphonycare-config
 A common configuration module to abstract precedence of config options.
 
 # about
-ih-config is a lightweight wrapper on top of the [https://github.com/flatiron/nconf](nconf) module, which abstracts access to various configuration stores. Configuration data may come from files, machine environment variables, or the node command line. 
+Symphonycare-config is a lightweight wrapper on top of the [https://github.com/flatiron/nconf](nconf) module, which abstracts access to various configuration stores. Configuration data may come from files, machine environment variables, or the node command line. 
 
 # usage
 * require the module
 
 ````
-var config = require('ih-config');
+var config = require('Symphonycare-config');
 ````
 
 * get a config value
@@ -21,7 +21,7 @@ var bar = config.get('foo:bar');
 ````
 
 # config stores
-ih-config supports 3 types of configuration storage, and 4 levels of precedence (listed from highest to lowest precedence):
+Symphonycare-config supports 3 types of configuration storage, and 4 levels of precedence (listed from highest to lowest precedence):
 * CMD params - command line parameters, passed to node
 * ENV variables - machine environment variables
 * files - JS files, located in a directory in the root of your project named `config`

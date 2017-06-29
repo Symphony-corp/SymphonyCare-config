@@ -1,12 +1,12 @@
 {
-  "name": "SymphonyCare-config",
+  "name": "symphonycare-config",
   "version": "1.0.3",
   "description": "Symphony Care common config module",
   "main": "./lib/index.js",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Symphony-corp/SymphonyCare-config.git"
+    "url": "https://github.com/Symphony-corp/symphonycare-config.git"
   },
   "directories": {
     "test": "test"
@@ -17,16 +17,8 @@
   "author": "Symphony Care, Inc.",
   "contributors": [
     {
-      "name": "Nathan Cooke",
-      "url": "http://github.com/3choboomer"
-    },
-    {
       "name": "GurumoorthyV",
       "url": "https://github.com/gurumoorthyu"
-    },
-    {
-      "name": "Jeff Posey",
-      "url": "http://github.com/poseyj"
     }
   ],
   "license": "BSD-2-Clause",

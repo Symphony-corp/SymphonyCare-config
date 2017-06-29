@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Symphony Care common config module",
   "main": "./lib/index.js",
-  "private": false,
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/Symphony-corp/symphonycare-config.git"

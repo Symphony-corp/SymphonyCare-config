@@ -1,5 +1,5 @@
 {
-  "name": "SymphonyCare-config",
+  "name": "symphonycare-config",
   "version": "0.0.1",
   "description": "Symphony Care common config module",
   "main": "./lib/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "symphonycare-config",
+  "name": "medseek-config",
   "version": "1.0.3",
   "description": "Symphony Care common config module",
   "main": "./lib/index.js",
